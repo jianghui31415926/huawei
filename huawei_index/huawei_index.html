@@ -1,0 +1,240 @@
+<!doctype html>
+<html>
+<head>
+<style>
+/*重置*/
+body,h1,p{margin:0;}
+h1{font-weight:normal}
+img{border:none;display:block;}
+a{text-decoration:none}
+input{margin:0;border:none;padding:0;outline:none}
+.clearfix{clear:both}
+*{color:#666;font-size:12px;font-family:"微软雅黑";}
+/*顶部*/
+.container{background-color:#666;}
+.top{width:980px;margin-left:auto;margin-right:auto;}
+.top a{color:#cccccc;line-height:36px;font-family:"微软雅黑";
+font-size:14px;font-weight:bold;float:left;padding-left:22px;
+padding-right:22px;}
+.top a:hover{background-image:url(images/bg_top.png);color:#333}
+.header_box{background-image:url(images/logo_left.png)}
+.header{width:980px;margin-left:auto;margin-right:auto;}
+.logo,.service,.search,.search *{float:left;}
+.service_box{float:right}
+.logo{margin-top:11px;margin-bottom:12px}
+.service{line-height:61px;margin-right:20px}
+.search{margin-top:22px;}
+.search input{background-image:url(images/search_2.png)}
+/*导航*/
+.nav_box{background-image:url(images/bc_nav2_19.png)}
+.nav{width:980px;margin-left:auto;margin-right:auto;}
+.nav a{font-size:14px;font-weight:bold;line-height:49px;margin-left:28px;
+margin-right:28px;position:relative;float:left}
+/*广告*/
+.banner_box{overflow:hidden;}
+.banner_box img{position:relative;left:50%;margin-left:-960px}
+/*新闻*/
+.news_share_box{background-image:url(images/bg_news.png)}
+.news_share{width:980px;margin-left:auto;margin-right:auto;}
+.share{float:right}
+.news,.share *{float:left}
+.news,.share_text{line-height:37px;font-family:"宋体";}
+.share_text{font-weight:bold;color:#333333;margin_right:9px;}
+.news span{font-weight:bold;color:#b10000;}
+.share_icon{margin-top:9px;margin-left:14px}
+.share_icon a{margin-left:5px;}
+/*栏目*/
+.main_box{background-image:url(images/bg_main.png);background-repeat:repeat-x;background-color:#dcdcdc}
+.main{width:984px;margin-left:auto;margin-right:auto;padding-top:12px}
+.column{background-image:url(images/bg_column.png);width:316px;height:137px;float:left;margin-bottom:12px;
+margin-left:6px;margin-right:6px;position:relative;cursor:pointer;}
+.text{float:left;width:206px;padding-top:18px}
+.text h1,.text p{padding-left:10px;padding-right:10px;}
+.text h1{font-family:"微软雅黑";font-size:16px;line-height:22px;margin-bottom:7px}
+.text p{font-family:"微软雅黑";font-size:12px;line-height:18px}
+.photo{float:right}
+.color01{color:#3686c4}
+.color02{color:#f1ad00}
+.color03{color:#679800}
+/*页脚<br>内联变竖排*/
+.footer_box{background-image:url(images/bg_footer.png);background-repeat:repeat-x;background-color:#7f7f7f}
+.footer{width:980px;margin-left:auto;margin-right:auto;padding-top:20px}
+.links{float:left;width:20%;}
+.footer *{color:#ffffff}
+.links h1,.links a{display:block;padding-left:7px}
+.links h1{font-size:14px;line-height:44px;font-weight:bold}
+.links a{font-size:12px;line-height:22px;}
+.nav_footer,.copyright{float:left;margin-top:35px;}
+.copyright span{font-family:arial;}
+.nav_footer{margin-right:101px;padding-left:7px;}
+.footer img{margin-top:11px;padding-bottom:10px;}
+/*菜单浮动简单交互*/
+.menu{position:absolute;left:0;top:49px;background-color:rgba(0,0,0,0.3);z-index:1;
+width:200px;height:300px;display:none;color:white}
+.nav a:hover .menu{display:block;}
+.blackbox{background-color:black;width:100%;height:100%;
+z-index:1;position:absolute;left:0;top:0;opacity:0.3;}
+.column:hover .blackbox{display:none}                                                                         
+</style>
+<meta charset="utf-8">
+<title>华为首页</title>
+</head>
+
+<body>
+<div class="container">
+    <div class="top">
+        <a href="">集团</a>
+        <a href="">企业业务</a>
+        <a href="">运营商网络</a>
+        <a href="">消费者</a>
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+<div class="header_box">
+    <div class="header">
+    	<a class="logo" href=""><img src="images/logo.png"></a>
+    	<div class="service_box">
+            <div class="service">
+                <a href="">Worldwide</a>&nbsp;丨&nbsp;
+                <a href="">登录</a>&nbsp;丨&nbsp;
+                <a href="">个性化服务</a>&nbsp;丨&nbsp;
+                <a href="">心声社区</a>
+            </div>
+            <div class="search"><img src="images/search_1.png"><input>
+            <img src="images/search_3.png"></div>
+        </div>
+        <div class="clearfix"></div>
+ 
+      </div>
+</div>
+
+<div class="nav_box">
+    <div class="nav">
+        <a>行业洞察<div class="menu">菜单内容</div></a>
+       	<a>方案与产品<div class="menu">菜单内容</div></a>
+        <a>技术支持<div class="menu">菜单内容</div></a>
+        <a>关于华为<div class="menu">菜单内容</div></a>
+        <a>媒体中心<div class="menu">菜单内容</div></a>
+        <a>加入华为<div class="menu">菜单内容</div></a>
+        <a>华为商城<div class="menu">菜单内容</div></a>
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+<div class="banner_box">
+      <img src="images/banner.jpg">
+</div>
+
+<div class="news_share_box">
+	<div class="news_share">
+        <div class="news"><span>新闻:</span>&nbsp;华为成为TPC大数据基准工作组核心成员
+        将主导大数据能耗标准制定</div>
+        <div class="share">
+            <div class="share_text">关注我们</div>
+            <div class="share_icon">
+                <a href=""><img src="images/share_1.png"></a>
+                <a href=""><img src="images/share_2.png"></a>
+                <a href=""><img src="images/share_3.png"></a>
+                <a href=""><img src="images/share_4.png"></a>
+               </div>
+             </div>
+         </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+<div class="main_box">
+    <div class="main">
+         <div class="column">
+                <div class="text">
+                    <h1 class="color01">华为发布《2013年网络安全白皮书》</h1>
+                    <p>新版探讨了如何构筑公司的网络安全基因，倡议制定并实施统一的网络安全国际标准。</p></div>
+                <img src="images/photo1.png">
+                <div class="blackbox"></div>
+         </div>
+         <div class="column">
+                <div class="text">
+                    <h1 class="color02">未来数字经济的钻石结构</h1>
+                    <p>TMF主席认为，五年后OTT将不复存在，产业结构将被重塑为钻石型。
+                    届时，玩家面对的是一个价值高达70万亿的超大金矿。</p></div>
+                <img src="images/photo2.png">
+                <div class="blackbox"></div>
+         </div>    
+         <div class="column">
+                <div class="text">
+                    <h1 class="color03">网络电视新体验</h1>
+                    <p>人性化的内容继承、定制和推送，是IPTV以低成本构建差异化竞争优势的良方。
+            汉雅星空以其成功实践对此进行了完美演绎。</p></div>
+                <img src="images/photo3.png">
+                <div class="blackbox"></div>
+         </div> 
+         <div class="column">
+                <div class="text">
+                    <h1 class="color03">BOOST释放超宽带能</h1>
+                    <p>华为商业策略BOOST从带宽经营、产业合作、固移协同、按需建网四方面从容应对超
+            宽带时代新挑战。</p></div>
+                <img src="images/photo4.png">
+                <div class="blackbox"></div>
+         </div>   
+         <div class="column">
+                <div class="text">
+                    <h1 class="color01">互联时代与ICT转型</h1>
+                    <p>华为全球技术服务部总裁梁华：用户参与的互联时代已经到来，要构筑独特的竞争优势，
+            必须将IT能力与CT能力进行融合。</p></div>
+                <img src="images/photo5.png">
+                <div class="blackbox"></div>
+         </div>
+         <div class="column">
+                <div class="text">
+                    <h1 class="color02">泛BYOD融合网络</h1>
+                    <p>应用移动化正逐渐改变企业传统业务模式，华为以敏捷、融合、安全的网络
+            解决方案助力其快速改变。</p></div>
+                <img src="images/photo6.png">
+                <div class="blackbox"></div>
+         </div>      
+            
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+<div class="footer_box">
+    <div class="footer">
+            <div class="links">
+                <h1>按访问者</h1>
+                <a href="">运营商</a><a href="">企业用户</a><a href="">最终消费者</a>
+                <a href="">合作伙伴</a><a href="">新闻媒体</a><a href="">求职者</a>
+            </div>
+            <div class="links">
+                <h1>行业洞察</h1>
+                <a href="">客户声音</a><a href="">消费研究</a><a href="">创新</a>
+                <a href="">热点技术</a><a href="">标准与行业贡献</a>
+            </div>
+            <div class="links">
+                <h1>关于华为</h1>
+                <a href="">品牌承诺</a><a href="">价值主张</a><a href="">可持续发展</a>
+                <a href="">公司治理</a><a href="">财务概要</a><a href="">发展历程</a>
+            </div>
+            <div class="links">
+                <h1>常用链接</h1>
+                <a href="">新闻中心</a><a href="">展会活动</a><a href="">公司刊物</a>
+                <a href="">网络安全</a><a href="">安全通告</a><a href="">成功故事</a>
+            </div>
+            <div class="links">
+                <h1>相关网站</h1>
+                <a href="">华为运营商网络</a><a href="">华为企业业务</a><a href="">华为消费者业务</a>
+                <a href="">华为海洋</a><a href="">手机华为网</a>
+            </div>
+            <div class="clearfix"></div>
+            <div class="nav_footer"><a href="">法律声明</a>&nbsp;丨&nbsp;<a href="">隐私保护</a>&nbsp;丨&nbsp;<a href="">联系我们</a>&nbsp;丨&nbsp;<a href="">网站地图</a></div>
+            <div class="copyright">版权所有 <span>&copy </span> 华为技术有限公司1998-2013。保留一切权利。粤A2-2004005号</div>
+       		<div class="clearfix"></div>
+        	<img src="images/search_2_72.png">
+    </div>
+</div>
+
+
+
+</body>
+</html>
+     
